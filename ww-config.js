@@ -1,16 +1,19 @@
-export default {
-  editor: {
-    label: {
-      en: "My Element",
-    },
-  },
+module.exports = {
+  name: "AntTable",
+  description: "An Ant Design Table component for WeWeb.",
   properties: {
-    textColor: {
-      label: {
-        en: "Text color",
-      },
-      type: "Color",
-      defaultValue: "#F23636",
+    columns: {
+      type: "array",
+      label: "Columns",
+      defaultValue: []
     },
+    data: {
+      type: "array",
+      label: "Data",
+      defaultValue: []
+    }
   },
+  events: {},
+  slots: {},
+  styles: {}
 };
