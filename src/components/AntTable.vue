@@ -46,7 +46,7 @@
 import { SmileOutlined, DownOutlined } from '@ant-design/icons-vue';
 const columns = [
   {
-    name: 'Name',
+    title: 'Name',
     dataIndex: 'name',
     key: 'name',
   },
